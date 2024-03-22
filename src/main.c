@@ -1,4 +1,5 @@
 #include <xc.h>
+#include <pic16f877a.h>
 // Configuration bits
 #pragma config FOSC = HS       // Oscillator Selection bits (HS oscillator)
 #pragma config WDTE = OFF       // Watchdog Timer disabled

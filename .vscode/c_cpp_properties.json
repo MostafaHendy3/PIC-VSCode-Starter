@@ -1,18 +1,40 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "PIC18F4520",
+            "browse": {
+                "path": [
+                    // Add the following paths to the path array
+                    "C:/Program Files/Microchip/xc8/v2.46/pic/include/*",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
             "includePath": [
-                "${workspaceFolder}/**",
-                // Change the compilerPath to your installation directory
-                "C:/Program Files/Microchip/xc8/v2.46/pic/include/**"
+                // Add the following paths to the includePath array
+                "C:/Program Files/Microchip/xc8/v2.46/pic/include/*",
+                "${workspaceFolder}",
+                "C:/Program Files/Microchip/xc8/v2.46/pic/include/c90",
+                "C:/Program Files/Microchip/xc8/v2.46/pic/include/proc"
             ],
-            // Change the compilerPath to your installation directory
-            "compilerPath": "C:\\Program Files\\Microchip\\xc8\\v2.46\\bin\\xc8-cc.exe",
-            "cStandard": "c99",
-            "cppStandard": "gnu++14",
-            "intelliSenseMode": "windows-gcc-x64",
-            "configurationProvider": "ms-vscode.makefile-tools"
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__XC",
+                "__XC8",
+                "__XC8_VERSION=2460",
+                "__XC8_VERSION_MAJOR=2",
+                "__XC8_VERSION_MINOR=46",
+                "__XC8_VERSION_PATCH=0",
+                "__XC8_VERSION_BUILD=0"
+            ],
+            // Update the compilerPath to the correct path
+            "compilerPath": "C:/Program Files/Microchip/xc8/v2.46/bin/xc8-cc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
