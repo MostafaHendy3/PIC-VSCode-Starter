@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                // Change the compilerPath to your installation directory
+                "C:/Program Files/Microchip/xc8/v2.46/pic/include/**"
+            ],
+            // Change the compilerPath to your installation directory
+            "compilerPath": "C:\\Program Files\\Microchip\\xc8\\v2.46\\bin\\xc8-cc.exe",
+            "cStandard": "c99",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
