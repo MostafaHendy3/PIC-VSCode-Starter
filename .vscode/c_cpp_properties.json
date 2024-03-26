@@ -5,7 +5,7 @@
             "browse": {
                 "path": [
                     // Add the following paths to the path array
-                    "C:/Program Files/Microchip/xc8/v2.46/pic/include/*",
+                    "/opt/microchip/xc8/v2.46/pic/include/*",
                     "${workspaceFolder}"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
@@ -13,10 +13,10 @@
             },
             "includePath": [
                 // Add the following paths to the includePath array
-                "C:/Program Files/Microchip/xc8/v2.46/pic/include/*",
+                "/opt/microchip/xc8/v2.46/pic/include/*",
                 "${workspaceFolder}",
-                "C:/Program Files/Microchip/xc8/v2.46/pic/include/c90",
-                "C:/Program Files/Microchip/xc8/v2.46/pic/include/proc"
+                "/opt/microchip/xc8/v2.46/pic/include/c90",
+                "/opt/microchip/xc8/v2.46/pic/include/proc"
             ],
             "defines": [
                 "_DEBUG",
@@ -31,7 +31,7 @@
                 "__XC8_VERSION_BUILD=0"
             ],
             // Update the compilerPath to the correct path
-            "compilerPath": "C:/Program Files/Microchip/xc8/v2.46/bin/xc8-cc.exe",
+            "compilerPath": "/opt/microchip/xc8/v2.46/bin/xc8-cc",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
