@@ -1,4 +1,3 @@
-To convert the setup guide for PIC development with VSCode to be Linux-based, you'll need to make a few adjustments. Here's the modified guide for Linux:
 
 ---
 
